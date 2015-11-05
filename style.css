@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box
+}
+
+html {
+	width: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(/Users/erinmeyers/Documents/DevMountain/Week3/Day2/Projects/Practice-quoteBook/paisley.png);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: Corbel;
+	font-size: 50px;
+	margin-bottom: 2p5x;
+	background-color: #85FFD6;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: .6	
+}
+
+.quoteSection {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+.quoteBlock {
+	background-color: #DB4D4D;
+	border: 5px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	opacity: .8
+
+	
+}
+
+.quoteGroup {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+
+
+}
+
+.quoteText {
+	color: mintcream;
+	font-family: cursive;
+	font-size: 20px;
+	margin: 10px;
+	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.authorName {
+	color: #3c3c3c;
+	font-family: cursive;
+	font-size: 18px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+.side {
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa-close {
+	color: #434343;
+}
+
+.buttonArea {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+.addQuoteSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+.input {
+	width: 150px;
+	border-width: 0px 0px 3px 0px;
+	border-color: #434343;
+	background-color: transparent;
+	font-size: 14px;
+	color: #434343;
+}
+
+.button {
+	width: 150px;
+	background-color: #434343;
+	border-style: outset;
+	border-radius: 3px;
+	color: mintcream;
+	font-size: 16px;
+}
+
+.quoteInput {
+	height: 50px;
+	width: 300px;
+	margin-bottom: 25px;
+
+}
+
+.addQuoteSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.searchField {
+	margin-bottom: 25px;
+	
+	
+}
+
+.filterInput {
+	height: 35px;
+	font-size: 20px;
+	width: 200px;
+	border-width: 0px 0px 3px 0px;
+	border-color: #434343; 
+	background-color: transparent;
+	border-style: inset;
+}
+
+form {
+}
+
