@@ -35,7 +35,7 @@
 	
 	
 	<div class="quoteSection">
-	<div ng-repeat="quote in quotes | filter: filterTerm track by $index" class="quoteBlock" ng-model="indexToDelete">
+	<div ng-repeat="quote in quotes.slice().reverse() | filter: filterTerm track by $index" class="quoteBlock" ng-model="indexToDelete">
 			<div class="side">
 				
 			</div>

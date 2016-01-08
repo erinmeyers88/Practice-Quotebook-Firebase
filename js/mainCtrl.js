@@ -19,6 +19,7 @@ angular.module("quoteBook")
 				$scope.quotes.$add(newQuote);
 			}
 			$scope.newQuote = {};
+			$scope.showNewInput = false;
 			return $scope.quotes;
 		};
 
