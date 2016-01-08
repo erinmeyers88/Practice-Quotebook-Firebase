@@ -10,7 +10,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-image: url(/Users/erinmeyers/Documents/DevMountain/Week3/Day2/Projects/Practice-quoteBook/paisley.png);
+	background-image: url(/paisley.png);
 	width: 100%;
 	margin: 0;
 	padding: 0;
